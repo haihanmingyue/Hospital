@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#efefef"
+tools:context=".DoctorActivity">
+
+
+    <Button
+        android:id="@+id/my_message"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/shape2"
+        android:text="@string/my_message"
+        android:drawableEnd="@drawable/right"
+        android:drawablePadding="250dp"
+        android:paddingEnd="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/my_order"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/shape2"
+        android:text="@string/my_order"
+        android:drawableEnd="@drawable/right"
+        android:drawablePadding="250dp"
+        android:paddingEnd="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+
+    <Button
+        android:id="@+id/bf_see"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+
+        android:layout_marginRight="35dp"
+        android:background="@drawable/shape2"
+        android:text="@string/bf_see"
+        android:drawableEnd="@drawable/right"
+        android:drawablePadding="250dp"
+        android:paddingEnd="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/change_psw"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/shape2"
+        android:drawableEnd="@drawable/right"
+        android:drawablePadding="250dp"
+        android:paddingEnd="10dp"
+        android:text="@string/change_psw"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/tui_chu"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+       android:layout_marginTop="60dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/shape2"
+
+        android:text="@string/tui_chu"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>

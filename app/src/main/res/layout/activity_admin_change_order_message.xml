@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminChangeOrderMessageActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/yyxxxxxx"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/yyxxxxxx"
+            android:textColor="#000000"
+            android:textColorLink="#00501818"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="641dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gonghao"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:textColor="#B1B1B1"
+                android:text="医生工号："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/user_name4"
+                android:layout_width="240dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="35dp"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="#B1B1B1"
+                android:textColorHint="#B1B1B1"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:textColor="#C9C9C9"
+                android:text="病房ID："
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/xing_ming"
+                android:layout_width="262dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="35dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:focusable="false"
+                android:textColor="#B6B6B6"
+                android:textColorHint="#C0C0C0"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="科室："
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/xing_bie"
+                android:layout_width="278dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="35dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#595959"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="入住人数："
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/tel"
+                android:layout_width="238dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="35dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:textColor="#A7A7A7"
+                android:text="预约时间："
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/ningl"
+                android:layout_width="232dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="35dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:focusable="false"
+                android:singleLine="true"
+                android:textColor="#979797"
+                android:textColorHint="#949494"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="预约状态："
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/depart"
+                android:layout_width="271dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="35dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/adddoctor"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/shape"
+            android:text="@string/xiu_gai_queren"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
